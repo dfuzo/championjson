@@ -1,107 +1,200 @@
 [
-  {
-    "Id": 1,
-    "Name": "Aatrox",
-    "Role": "Fighter",
-    "Description": "Aatrox is a fallen god-warrior who once wielded his weapon to ensure the victory of his people.",
-    "Image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_0.jpg"
-  },
-  {
-    "Id": 2,
-    "Name": "Ahri",
-    "Role": "Mage",
-    "Description": "Ahri is a nine-tailed fox who charms her enemies and feeds off their life essence to enhance her magic.",
-    "Image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ahri_0.jpg"
-  },
-  {
-    "Id": 3,
-    "Name": "Akali",
-    "Role": "Assassin",
-    "Description": "Akali is a rogue assassin who moves through the shadows, seeking vengeance against those who harm her people.",
-    "Image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_0.jpg"
-  },
-  {
-    "Id": 4,
-    "Name": "Alistar",
-    "Role": "Tank",
-    "Description": "Alistar is a mighty minotaur, a protector and a bastion for his allies, with tremendous strength to disrupt his enemies.",
-    "Image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Alistar_0.jpg"
-  },
-  {
-    "Id": 5,
-    "Name": "Annie",
-    "Role": "Mage",
-    "Description": "Annie is a young mage with powerful fire magic, able to summon her giant bear, Tibbers, to fight at her side.",
-    "Image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Annie_0.jpg"
-  },
-  {
-    "Id": 6,
-    "Name": "Ashe",
-    "Role": "Marksman",
-    "Description": "Ashe is an ice-wielding archer who commands her people with a steady bow and keen eye, always aiming for peace.",
-    "Image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ashe_0.jpg"
-  },
-  {
-    "Id": 7,
-    "Name": "Braum",
-    "Role": "Support",
-    "Description": "Braum is a kind-hearted protector, using his mighty shield to block damage and support his teammates.",
-    "Image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Braum_0.jpg"
-  },
-  {
-    "Id": 8,
-    "Name": "Caitlyn",
-    "Role": "Marksman",
-    "Description": "Caitlyn is the Sheriff of Piltover, a skilled marksman known for her impeccable aim and strategic mind.",
-    "Image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Caitlyn_0.jpg"
-  },
-  {
-    "Id": 9,
-    "Name": "Darius",
-    "Role": "Fighter",
-    "Description": "Darius is the hand of Noxus, wielding a massive axe and striking fear into his enemies with raw power.",
-    "Image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Darius_0.jpg"
-  },
-  {
-    "Id": 10,
-    "Name": "Lux",
-    "Role": "Mage",
-    "Description": "Lux is a radiant mage who wields light as her weapon, bringing hope and justice to those in need.",
-    "Image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Lux_0.jpg"
-  },
-  {
-    "Id": 11,
-    "Name": "Garen",
-    "Role": "Fighter",
-    "Description": "Garen is a noble warrior of Demacia, who stands ready to protect his people with strength and bravery.",
-    "Image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Garen_0.jpg"
-  },
-  {
-    "Id": 12,
-    "Name": "Jinx",
-    "Role": "Marksman",
-    "Description": "Jinx is a chaotic marksman who thrives in causing disorder, using her vast array of explosive weapons.",
-    "Image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Jinx_0.jpg"
-  },
-  {
-    "Id": 13,
-    "Name": "Lee Sin",
-    "Role": "Fighter",
-    "Description": "Lee Sin is a blind monk who channels his inner energy to unleash powerful attacks against his foes.",
-    "Image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/LeeSin_0.jpg"
-  },
-  {
-    "Id": 14,
-    "Name": "Morgana",
-    "Role": "Mage",
-    "Description": "Morgana is a fallen angel who uses her dark magic to bind her enemies and shield her allies.",
-    "Image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Morgana_0.jpg"
-  },
-  {
-    "Id": 15,
-    "Name": "Yasuo",
-    "Role": "Assassin",
-    "Description": "Yasuo is a master swordsman of the wind, always searching for redemption as he battles his foes.",
-    "Image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yasuo_0.jpg"
-  }
-]
+    {
+      "Id": 1,
+      "Name": "Aatrox",
+      "Role": "Fighter",
+      "Description": "Aatrox is a fallen god-warrior who once wielded his weapon to ensure the victory of his people.",
+      "Image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_0.jpg",
+      "Lane": "Top",
+      "LaneImage": "https://raw.communitydragon.org/latest/plugins/rcp-fe-lol-clash/global/default/assets/images/position-selector/positions/icon-position-top.png"
+    },
+    {
+      "Id": 2,
+      "Name": "Ahri",
+      "Role": "Mage",
+      "Description": "Ahri is a vastaya who can reshape magic into orbs of raw energy, her vast intelligence and alluring charm help her manipulate her enemies.",
+      "Image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ahri_0.jpg",
+      "Lane": "Mid",
+      "LaneImage": "https://raw.communitydragon.org/latest/plugins/rcp-fe-lol-clash/global/default/assets/images/position-selector/positions/icon-position-middle.png"
+    },
+    {
+      "Id": 3,
+      "Name": "Akali",
+      "Role": "Assassin",
+      "Description": "Akali is a rogue assassin, using her lethal expertise to dismantle enemies in her way.",
+      "Image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_0.jpg",
+      "Lane": "Mid",
+      "LaneImage": "https://raw.communitydragon.org/latest/plugins/rcp-fe-lol-clash/global/default/assets/images/position-selector/positions/icon-position-middle.png"
+    },
+    {
+      "Id": 4,
+      "Name": "Alistar",
+      "Role": "Tank",
+      "Description": "Alistar is a mighty, unbreakable minotaur whose stampeding charge and pulverizing might disrupts enemies.",
+      "Image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Alistar_0.jpg",
+      "Lane": "Support",
+      "LaneImage": "https://raw.communitydragon.org/latest/plugins/rcp-fe-lol-clash/global/default/assets/images/position-selector/positions/icon-position-utility.png"
+    },
+    {
+      "Id": 5,
+      "Name": "Amumu",
+      "Role": "Tank",
+      "Description": "Amumu is a sad mummy whose tears flood his enemies, seeking to unravel their resistance.",
+      "Image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Amumu_0.jpg",
+      "Lane": "Jungle",
+      "LaneImage": "https://raw.communitydragon.org/latest/plugins/rcp-fe-lol-clash/global/default/assets/images/position-selector/positions/icon-position-jungle.png"
+    },
+    {
+      "Id": 6,
+      "Name": "Anivia",
+      "Role": "Mage",
+      "Description": "Anivia is a mystical bird who commands the icy power of Freljord to freeze and disrupt her foes.",
+      "Image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Anivia_0.jpg",
+      "Lane": "Mid",
+      "LaneImage": "https://raw.communitydragon.org/latest/plugins/rcp-fe-lol-clash/global/default/assets/images/position-selector/positions/icon-position-middle.png"
+    },
+    {
+      "Id": 7,
+      "Name": "Annie",
+      "Role": "Mage",
+      "Description": "Annie is a child prodigy who harnesses pyromancy, channeling destructive fire to incinerate her enemies.",
+      "Image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Annie_0.jpg",
+      "Lane": "Mid",
+      "LaneImage": "https://raw.communitydragon.org/latest/plugins/rcp-fe-lol-clash/global/default/assets/images/position-selector/positions/icon-position-middle.png"
+    },
+    {
+      "Id": 8,
+      "Name": "Ashe",
+      "Role": "Marksman",
+      "Description": "Ashe is the queen of the Freljord, wielding a bow of true ice to rally her people against their enemies.",
+      "Image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ashe_0.jpg",
+      "Lane": "Bottom",
+      "LaneImage": "https://raw.communitydragon.org/latest/plugins/rcp-fe-lol-clash/global/default/assets/images/position-selector/positions/icon-position-bottom.png"
+    },
+    {
+      "Id": 9,
+      "Name": "Aurelion Sol",
+      "Role": "Mage",
+      "Description": "Aurelion Sol, the Star Forger, is a celestial being who shapes stars and uses their power to devastate his enemies.",
+      "Image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/AurelionSol_0.jpg",
+      "Lane": "Mid",
+      "LaneImage": "https://raw.communitydragon.org/latest/plugins/rcp-fe-lol-clash/global/default/assets/images/position-selector/positions/icon-position-middle.png"
+    },
+    {
+      "Id": 10,
+      "Name": "Azir",
+      "Role": "Mage",
+      "Description": "Azir is an emperor of the sands, raising an army of sand soldiers to march against his enemies.",
+      "Image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Azir_0.jpg",
+      "Lane": "Mid",
+      "LaneImage": "https://raw.communitydragon.org/latest/plugins/rcp-fe-lol-clash/global/default/assets/images/position-selector/positions/icon-position-middle.png"
+    },
+    {
+      "Id": 11,
+      "Name": "Bard",
+      "Role": "Support",
+      "Description": "Bard is a celestial caretaker who guides spirits to the afterlife, while using his magical abilities to protect his team.",
+      "Image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Bard_0.jpg",
+      "Lane": "Support",
+      "LaneImage": "https://raw.communitydragon.org/latest/plugins/rcp-fe-lol-clash/global/default/assets/images/position-selector/positions/icon-position-utility.png"
+    },
+    {
+      "Id": 12,
+      "Name": "Blitzcrank",
+      "Role": "Tank",
+      "Description": "Blitzcrank is a steam golem with a powerful rocket grab, pulling enemies into his team.",
+      "Image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Blitzcrank_0.jpg",
+      "Lane": "Support",
+      "LaneImage": "https://raw.communitydragon.org/latest/plugins/rcp-fe-lol-clash/global/default/assets/images/position-selector/positions/icon-position-utility.png"
+    },
+    {
+      "Id": 13,
+      "Name": "Brand",
+      "Role": "Mage",
+      "Description": "Brand is a fiery spirit who spreads wildfire, causing devastation across the battlefield.",
+      "Image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Brand_0.jpg",
+      "Lane": "Mid",
+      "LaneImage": "https://raw.communitydragon.org/latest/plugins/rcp-fe-lol-clash/global/default/assets/images/position-selector/positions/icon-position-middle.png"
+    },
+    {
+      "Id": 14,
+      "Name": "Braum",
+      "Role": "Support",
+      "Description": "Braum is a heartwarming protector from the Freljord, using his giant shield to defend his allies.",
+      "Image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Braum_0.jpg",
+      "Lane": "Support",
+      "LaneImage": "https://raw.communitydragon.org/latest/plugins/rcp-fe-lol-clash/global/default/assets/images/position-selector/positions/icon-position-utility.png"
+    },
+    {
+      "Id": 15,
+      "Name": "Caitlyn",
+      "Role": "Marksman",
+      "Description": "Caitlyn is the sheriff of Piltover, known for her impeccable aim and deadly traps, bringing justice to criminals.",
+      "Image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Caitlyn_0.jpg",
+      "Lane": "Bottom",
+      "LaneImage": "https://raw.communitydragon.org/latest/plugins/rcp-fe-lol-clash/global/default/assets/images/position-selector/positions/icon-position-bottom.png"
+    },
+    {
+      "Id": 16,
+      "Name": "Darius",
+      "Role": "Fighter",
+      "Description": "Darius is the hand of Noxus, a brutal war commander who cleaves through enemies with his axe.",
+      "Image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Darius_0.jpg",
+      "Lane": "Top",
+      "LaneImage": "https://raw.communitydragon.org/latest/plugins/rcp-fe-lol-clash/global/default/assets/images/position-selector/positions/icon-position-top.png"
+    },
+    {
+      "Id": 17,
+      "Name": "Lux",
+      "Role": "Mage",
+      "Description": "Lux is a radiant mage from Demacia, wielding light magic to defend her homeland and outshine her enemies.",
+      "Image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Lux_0.jpg",
+      "Lane": "Mid",
+      "LaneImage": "https://raw.communitydragon.org/latest/plugins/rcp-fe-lol-clash/global/default/assets/images/position-selector/positions/icon-position-middle.png"
+    },
+    {
+      "Id": 18,
+      "Name": "Garen",
+      "Role": "Fighter",
+      "Description": "Garen is the might of Demacia, a warrior with a heart of steel who protects his people with courage and discipline.",
+      "Image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Garen_0.jpg",
+      "Lane": "Top",
+      "LaneImage": "https://raw.communitydragon.org/latest/plugins/rcp-fe-lol-clash/global/default/assets/images/position-selector/positions/icon-position-top.png"
+    },
+    {
+      "Id": 19,
+      "Name": "Jinx",
+      "Role": "Marksman",
+      "Description": "Jinx is a loose cannon, causing mayhem wherever she goes with her love of explosions and chaos.",
+      "Image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Jinx_0.jpg",
+      "Lane": "Bottom",
+      "LaneImage": "https://raw.communitydragon.org/latest/plugins/rcp-fe-lol-clash/global/default/assets/images/position-selector/positions/icon-position-bottom.png"
+    },
+    {
+      "Id": 20,
+      "Name": "Lee Sin",
+      "Role": "Fighter",
+      "Description": "Lee Sin is a blind monk who channels the essence of the dragon spirit to defeat his foes with powerful martial arts.",
+      "Image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/LeeSin_0.jpg",
+      "Lane": "Jungle",
+      "LaneImage": "https://raw.communitydragon.org/latest/plugins/rcp-fe-lol-clash/global/default/assets/images/position-selector/positions/icon-position-jungle.png"
+    },
+    {
+      "Id": 21,
+      "Name": "Morgana",
+      "Role": "Mage",
+      "Description": "Morgana is a fallen angel who wields dark magic to punish the unjust, protecting the innocent with her enchanted shackles.",
+      "Image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Morgana_0.jpg",
+      "Lane": "Support",
+      "LaneImage": "https://raw.communitydragon.org/latest/plugins/rcp-fe-lol-clash/global/default/assets/images/position-selector/positions/icon-position-utility.png"
+    },
+    {
+      "Id": 22,
+      "Name": "Yasuo",
+      "Role": "Fighter",
+      "Description": "Yasuo is a wind-sword master, carrying the burden of his past mistakes as he defends the weak with his unmatched speed and precision.",
+      "Image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yasuo_0.jpg",
+      "Lane": "Mid",
+      "LaneImage": "https://raw.communitydragon.org/latest/plugins/rcp-fe-lol-clash/global/default/assets/images/position-selector/positions/icon-position-middle.png"
+    }
+  ]
